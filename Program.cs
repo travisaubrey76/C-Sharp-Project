@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SortOMatic
+namespace Compe561_Project1
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace SortOMatic
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Menu());
+            Application.Run(new initialForm());
         }
     }
 }
